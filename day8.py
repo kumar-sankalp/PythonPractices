@@ -22,6 +22,7 @@ def count_tail():
             if line in "tail":
                 t_count += 1
         return int(t_count)
+    
 
 user_input=input("Throw the coin and enter head or tail: here: ? ")
 print(user_input)
